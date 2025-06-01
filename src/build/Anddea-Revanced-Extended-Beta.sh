@@ -21,3 +21,8 @@ get_patches_key "Spotjfy-revanced"
 j="i"
 get_apkpure "com.spot"$j"fy.music" "spotjfy-arm64-v8a" "spot"$j"fy-music-and-podcasts-for-android/com.spot"$j"fy.music"
 patch "spotjfy-arm64-v8a" "anddea"
+
+# Patch Reddit Arm64-v8a:
+split_editor "reddit" "reddit-arm64-v8a" "exclude" "split_config.armeabi_v7a split_config.x86_64 split_config.mdpi split_config.ldpi split_config.hdpi split_config.xhdpi split_config.xxhdpi split_config.tvdpi"
+get_patches_key "reddit-rve"
+patch "reddit-arm64-v8a" "anddea" "inotia"
