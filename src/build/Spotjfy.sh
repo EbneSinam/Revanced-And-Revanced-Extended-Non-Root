@@ -3,8 +3,8 @@
 source src/build/utils.sh
 
 # Download requirements
-dl_gh "revanced-patches revanced-cli" "revanced" "latest"
-
+dl_gh "revanced-patches" "anddea" "prerelease"
+dl_gh "revanced-cli" "inotia00" "latest"
 # Patch Spotjfy Arm64-v8a
 get_patches_key "Spotjfy-revanced"
 j="i"
