@@ -1,18 +1,16 @@
-[
-	{
-	  "patchName" : "Custom branding name for YouTube",
-	  "options" : [ {
-		"key" : "AppName",
-		"value" : "YouTube"
-	  } ]
-	}, {
-	  "patchName" : "Custom branding name for YouTube Music",
-	  "options" : [ {
-		"key" : "AppNameNotification",
-		"value" : "YouTube Music"
-	  }, {
-		"key" : "AppNameLauncher",
-		"value" : "YouTube Music"
-	  } ]
-	}
-]
+[ {
+  "patchName" : "Custom branding name for YouTube Music",
+  "options" : [ {
+    "key" : "appNameNotification",
+    "value" : "YouTube Music"
+  }, {
+    "key" : "appNameLauncher",
+    "value" : "YouTube Music"
+  } ]
+}, {
+  "patchName" : "Custom branding name for YouTube",
+  "options" : [ {
+    "key" : "appName",
+    "value" : "YouTube"
+  } ]
+} ]
