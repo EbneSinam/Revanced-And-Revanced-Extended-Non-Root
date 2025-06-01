@@ -74,6 +74,16 @@ Download
 
 ---
 
+[![Reddit](https://img.shields.io/badge/Reddit-%23FF4500.svg?style=for-the-badge&logo=Reddit&logoColor=white)](https://play.google.com/store/apps/details?id=com.reddit.frontpage)
+
+### [Revanced Extended:](https://github.com/inotia00/revanced-patches/)
+
+| Stable version                                                                  | Beta version                                                                         |
+| ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ | 
+| [Arm64-v8a](../../releases/download/all/reddit-arm64-v8a-revanced-extended.apk) | [Arm64-v8a](../../releases/download/all/reddit-arm64-v8a-beta-revanced-extended.apk) |
+
+---
+
 [![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white)](https://play.google.com/store/apps/details?id=com.twitter.android)
 
 ### [Piko:](https://github.com/crimera/piko)
@@ -84,17 +94,6 @@ Download
 | -------------------------------------------------------------------------- | -------------------------------------------------------------------------| 
 | [All Architectures](../../releases/download/all/twitter-stable-piko.apk)   | [All Architectures](../../releases/download/all/twitter-beta-piko.apk)   |
 | [Arm64-v8a](../../releases/download/all/twitter-arm64-v8a-stable-piko.apk) | [Arm64-v8a](../../releases/download/all/twitter-arm64-v8a-beta-piko.apk) |
-
----
-
-[![Reddit](https://img.shields.io/badge/Reddit-%23FF4500.svg?style=for-the-badge&logo=Reddit&logoColor=white)](https://play.google.com/store/apps/details?id=com.reddit.frontpage)
-
-### [Revanced Extended:](https://github.com/inotia00/revanced-patches/)
-
-| Stable version                                                                  | Beta version                                                                         |
-| ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ | 
-| [All Architectures](../../releases/download/all/reddit-revanced-extended.apk)   | [All Architectures](../../releases/download/all/reddit-beta-revanced-extended.apk)   |
-| [Arm64-v8a](../../releases/download/all/reddit-arm64-v8a-revanced-extended.apk) | [Arm64-v8a](../../releases/download/all/reddit-arm64-v8a-beta-revanced-extended.apk) |
 
 ---
 
