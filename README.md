@@ -52,11 +52,7 @@ Download
 
 | [Stable version](https://github.com/anddea/revanced-patches/releases/latest)     | [Beta version](https://github.com/anddea/revanced-patches/releases)            |
 | -------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
-| [All Architectures](../../releases/download/all/youtube-stable-anddea.apk)       | [All Architectures](../../releases/download/all/youtube-beta-anddea.apk)       |
 | [Arm64-v8a](../../releases/download/all/youtube-stable-arm64-v8a-anddea.apk)     | [Arm64-v8a](../../releases/download/all/youtube-beta-arm64-v8a-anddea.apk)     |
-| [Armeabi-v7a](../../releases/download/all/youtube-stable-armeabi-v7a-anddea.apk) | [Armeabi-v7a](../../releases/download/all/youtube-beta-armeabi-v7a-anddea.apk) |
-| [x86](../../releases/download/all/youtube-stable-x86-anddea.apk)                 | [x86](../../releases/download/all/youtube-beta-x86-anddea.apk)                 |
-| [x86_64](../../releases/download/all/youtube-stable-x86_64-anddea.apk)           | [x86_64](../../releases/download/all/youtube-beta-x86_64-anddea.apk)           |
 
 ---
 
@@ -67,9 +63,6 @@ Download
 | [Stable version](https://github.com/anddea/revanced-patches/releases/latest)           | [Beta version](https://github.com/anddea/revanced-patches/releases)                  |
 | -------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
 | [Arm64-v8a](../../releases/download/all/youtube-music-stable-arm64-v8a-anddea.apk)     | [Arm64-v8a](../../releases/download/all/youtube-music-beta-arm64-v8a-anddea.apk)     |
-| [Armeabi-v7a](../../releases/download/all/youtube-music-stable-armeabi-v7a-anddea.apk) | [Armeabi-v7a](../../releases/download/all/youtube-music-beta-armeabi-v7a-anddea.apk) |
-| [x86](../../releases/download/all/youtube-music-stable-x86-anddea.apk)                 | [x86](../../releases/download/all/youtube-music-beta-x86-anddea.apk)                 |
-| [x86_64](../../releases/download/all/youtube-music-stable-x86_64-anddea.apk)           | [x86_64](../../releases/download/all/youtube-music-beta-x86_64-anddea.apk)           |
 
 ---
 
