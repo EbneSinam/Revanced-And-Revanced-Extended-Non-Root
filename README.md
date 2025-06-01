@@ -88,7 +88,7 @@ Download
 
 ### [Spotjfy:](https://www.google.com/search?q=Spotjfy)
 
-### [Revanced](https://github.com/revanced/revanced-patches)
+### [Revanced forked by anddea:](https://github.com/anddea/revanced-patches)
 
 [Arm64-v8a](../../releases/download/all/spotjfy-arm64-v8a-revanced.apk)
 
