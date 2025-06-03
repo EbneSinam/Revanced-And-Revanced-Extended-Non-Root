@@ -9,6 +9,7 @@ dl_gh "revanced-cli" "inotia00" "latest"
 get_patches_key "Spotjfy-anddea"
 j="i"
 get_apkpure "com.spot"$j"fy.music" "spotjfy-beta-arm64-v8a" "spot"$j"fy-music-and-podcasts-for-android/com.spot"$j"fy.music" "Bundle_extract"
+version="9.0.44.478"
 split_editor "spotjfy-beta" "spotjfy-beta-arm64-v8a" "exclude" "split_config.armeabi_v7a split_config.x86 split_config.x86_64"
 patch "spotjfy-beta-arm64-v8a" "anddea"
 
