@@ -20,6 +20,7 @@ patch "youtube-music-beta-arm64-v8a" "anddea" "inotia"
 get_patches_key "Spotjfy-anddea"
 j="i"
 get_apkpure "com.spot"$j"fy.music" "spotjfy-beta-arm64-v8a" "spot"$j"fy-music-and-podcasts-for-android/com.spot"$j"fy.music"
+split_editor "spot"$j"fy-beta" "spot"$j"fy-beta-arm64-v8a" "exclude" "split_config.armeabi_v7a split_config.x86 split_config.x86_64"
 patch "spotjfy-beta-arm64-v8a" "anddea"
 
 # Patch Reddit Arm64-v8a:
