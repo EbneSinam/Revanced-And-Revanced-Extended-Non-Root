@@ -11,7 +11,7 @@ on:
       org:
         description: 'Which "Revanced" do you want to patch?'
         required: true
-        default: 'Revanced'
+        default: 'RVE-anddea-stable'
         type: choice
         options:
           - 'RVE-anddea-stable'
