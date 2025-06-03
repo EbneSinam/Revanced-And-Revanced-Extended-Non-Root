@@ -14,12 +14,12 @@ on:
         default: 'Revanced'
         type: choice
         options:
+          - 'RVE-anddea-stable'
+          - 'RVE-anddea-beta'
           - 'Revanced'
           - 'Revanced Beta'
           - 'Revanced Extended'
           - 'Revanced Extended Beta'
-          - 'RVE-anddea-stable'
-          - 'RVE-anddea-beta'
           - 'Twitter Piko Stable'
           - 'Twitter Piko Beta'
           - 'Revanced Extended Android 6,7'
