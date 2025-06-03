@@ -7,28 +7,12 @@ revanced_dl(){
  	dl_gh "revanced-cli" "revanced" "latest"
 }
 1() {
-	revanced_dl
-	# Patch YouTube:
-	get_patches_key "youtube-revanced"
-	get_apk "com.google.android.youtube" "youtube-beta" "youtube" "google-inc/youtube/youtube" "Bundle_extract"
-	split_editor "youtube-beta" "youtube-beta"
-	patch "youtube-beta" "revanced"
-	# Patch Youtube Arm64-v8a
-	get_patches_key "youtube-revanced" 
-	split_editor "youtube-beta" "youtube-beta-arm64-v8a" "exclude" "split_config.armeabi_v7a split_config.x86 split_config.x86_64"
-	patch "youtube-beta-arm64-v8a" "revanced"
-	# Patch Youtube Armeabi-v7a
-	get_patches_key "youtube-revanced" 
-	split_editor "youtube-beta" "youtube-beta-armeabi-v7a" "exclude" "split_config.arm64_v8a split_config.x86 split_config.x86_64"
-	patch "youtube-beta-armeabi-v7a" "revanced"
-	# Patch Youtube x86
-	get_patches_key "youtube-revanced" 
-	split_editor "youtube-beta" "youtube-beta-x86" "exclude" "split_config.arm64_v8a split_config.armeabi_v7a split_config.x86_64"
-	patch "youtube-beta-x86" "revanced"
-	# Patch Youtube x86_64
-	get_patches_key "youtube-revanced" 
-	split_editor "youtube-beta" "youtube-beta-x86_64" "exclude" "split_config.arm64_v8a split_config.armeabi_v7a split_config.x86"
-	patch "youtube-beta-x86_64" "revanced"
+        revanced_dl
+	# Patch Spotjfy Arm64-v8a
+	get_patches_key "Spotjfy-revanced"
+	j="i"
+	get_apkpure "com.spot"$j"fy.music" "spotjfy-beta-arm64-v8a" "spot"$j"fy-music-and-podcasts-for-android/com.spot"$j"fy.music"
+	patch "spotjfy-beta-arm64-v8a" "revanced"
 }
 2() {
 	revanced_dl
@@ -183,12 +167,27 @@ revanced_dl(){
 }
 12() {
 	revanced_dl
-	# Patch Spotjfy Arm64-v8a
-	get_patches_key "Spotjfy-revanced"
-	j="i"
-	version="9.0.44.478" #https://github.com/ReVanced/revanced-patches/issues/4958#issuecomment-2883387940
-	get_apkpure "com.spot"$j"fy.music" "spotjfy-beta-arm64-v8a" "spot"$j"fy-music-and-podcasts-for-android/com.spot"$j"fy.music"
-	patch "spotjfy-beta-arm64-v8a" "revanced"
+	# Patch YouTube:
+	get_patches_key "youtube-revanced"
+	get_apk "com.google.android.youtube" "youtube-beta" "youtube" "google-inc/youtube/youtube" "Bundle_extract"
+	split_editor "youtube-beta" "youtube-beta"
+	patch "youtube-beta" "revanced"
+	# Patch Youtube Arm64-v8a
+	get_patches_key "youtube-revanced" 
+	split_editor "youtube-beta" "youtube-beta-arm64-v8a" "exclude" "split_config.armeabi_v7a split_config.x86 split_config.x86_64"
+	patch "youtube-beta-arm64-v8a" "revanced"
+	# Patch Youtube Armeabi-v7a
+	get_patches_key "youtube-revanced" 
+	split_editor "youtube-beta" "youtube-beta-armeabi-v7a" "exclude" "split_config.arm64_v8a split_config.x86 split_config.x86_64"
+	patch "youtube-beta-armeabi-v7a" "revanced"
+	# Patch Youtube x86
+	get_patches_key "youtube-revanced" 
+	split_editor "youtube-beta" "youtube-beta-x86" "exclude" "split_config.arm64_v8a split_config.armeabi_v7a split_config.x86_64"
+	patch "youtube-beta-x86" "revanced"
+	# Patch Youtube x86_64
+	get_patches_key "youtube-revanced" 
+	split_editor "youtube-beta" "youtube-beta-x86_64" "exclude" "split_config.arm64_v8a split_config.armeabi_v7a split_config.x86"
+	patch "youtube-beta-x86_64" "revanced"
 }
 case "$1" in
     1)
