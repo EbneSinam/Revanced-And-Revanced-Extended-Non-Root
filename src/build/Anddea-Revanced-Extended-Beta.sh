@@ -11,7 +11,7 @@ j="i"
 version="9.0.50.416"
 get_apkpure "com.spot"$j"fy.music" "spotjfy-arm64-v8a" "spot"$j"fy-music-and-podcasts-for-android/com.spot"$j"fy.music" "Bundle_extract"
 split_editor "spotjfy-beta" "spotjfy-beta-arm64-v8a" "exclude" "split_config.armeabi_v7a split_config.x86 split_config.x86_64"
-patch "spotjfy-beta-arm64-v8a" "anddea"
+patch "spotjfy-arm64-v8a" "anddea"
 
 # Patch YouTube Arm64-v8a
 get_patches_key "youtube-rve-anddea"
