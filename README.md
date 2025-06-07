@@ -81,19 +81,6 @@ Download
 
 ---
 
-[![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white)](https://play.google.com/store/apps/details?id=com.twitter.android)
-
-### [Piko:](https://github.com/crimera/piko)
-
-👉 [Offical author download link](https://github.com/crimera/twitter-apk/releases)
-
-| [Stable version](https://github.com/crimera/piko/releases/latest)          | [Beta version](https://github.com/crimera/piko/releases/)                |
-| -------------------------------------------------------------------------- | -------------------------------------------------------------------------| 
-| [All Architectures](../../releases/download/all/twitter-stable-piko.apk)   | [All Architectures](../../releases/download/all/twitter-beta-piko.apk)   |
-| [Arm64-v8a](../../releases/download/all/twitter-arm64-v8a-stable-piko.apk) | [Arm64-v8a](../../releases/download/all/twitter-arm64-v8a-beta-piko.apk) |
-
----
-
 [![Reddit](https://img.shields.io/badge/Reddit-%23FF4500.svg?style=for-the-badge&logo=Reddit&logoColor=white)](https://play.google.com/store/apps/details?id=com.reddit.frontpage)
 
 ### [Revanced Extended forked by anddea:](https://github.com/anddea/revanced-patches)
@@ -101,6 +88,14 @@ Download
 | Stable version                                                                  | Beta version                                                                         |
 | ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ | 
 | [Arm64-v8a](../../releases/download/all/reddit-arm64-v8a-anddea.apk) | [Arm64-v8a](../../releases/download/all/reddit-arm64-v8a-beta-anddea.apk) |
+
+---
+
+[![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white)](https://play.google.com/store/apps/details?id=com.twitter.android)
+
+### [Piko:](https://github.com/crimera/piko)
+
+👉 [Offical author download link](https://github.com/crimera/twitter-apk/releases)
 
 ---
 
