@@ -63,6 +63,8 @@ jobs:
     outputs:
       check_rve_anddea_stable: ${{ steps.check-rve-anddea-stable.outputs.new_patch }}
       check_rve_anddea_beta: ${{ steps.check-rve-anddea-beta.outputs.new_patch }}
+      check_rv: ${{ steps.check-rv.outputs.new_patch }}
+      check_rv_beta: ${{ steps.check-rv-beta.outputs.new_patch }}
 
   Patch-RVE-anddea-stable:
     name: Patch RVX Anddea Stable
