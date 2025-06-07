@@ -73,6 +73,12 @@ Download
 | ------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | 
 | [Arm64-v8a](../../releases/download/all/spotjfy-arm64-v8a-anddea.apk)     | [Arm64-v8a](../../releases/download/all/spotjfy-beta-arm64-v8a-anddea.apk)     |
 
+### [Revanced](https://github.com/revanced/revanced-patches)
+
+| Stable version                                                            | Beta version                                                                   |
+| ------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | 
+| [Arm64-v8a](../../releases/download/all/spotjfy-arm64-v8a-revanced.apk)   | [Arm64-v8a](../../releases/download/all/spotjfy-beta-arm64-v8a-revanced.apk)   |
+
 ---
 
 [![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white)](https://play.google.com/store/apps/details?id=com.twitter.android)
