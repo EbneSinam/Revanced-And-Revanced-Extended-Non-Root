@@ -1,23 +1,33 @@
 [
-	{
-	  "patchName" : "Custom branding name for YouTube",
-	  "options" : [ {
-		"key" : "AppName",
-		"value" : "YouTube"
-	  } ]
-	}, {
-	  "patchName" : "Custom branding name for YouTube Music",
-	  "options" : [ {
-		"key" : "AppNameNotification",
-		"value" : "YouTube Music"
-	  }, {
-		"key" : "AppNameLauncher",
-		"value" : "YouTube Music"
-	  } ]
-	}, {
-    "patchName" : "Change version code",
-    "options" : [ {
-        "key" : "versionCode",
-        "values" : "2147483647"
-        } ]
+  {
+    "patchName": "Custom branding name for YouTube",
+    "options": [
+      {
+        "key": "AppName",
+        "value": "YouTube"
+      }
+    ]
+  },
+  {
+    "patchName": "Custom branding name for YouTube Music",
+    "options": [
+      {
+        "key": "AppNameNotification",
+        "value": "YouTube Music"
+      },
+      {
+        "key": "AppNameLauncher",
+        "value": "YouTube Music"
+      }
+    ]
+  },
+  {
+    "patchName": "Change version code",
+    "options": [
+      {
+        "key": "versionCode",
+        "value": "2147483647"
+      }
+    ]
+  }
 ]
