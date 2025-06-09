@@ -14,11 +14,10 @@
 		"key" : "AppNameLauncher",
 		"value" : "YouTube Music"
 	  } ]
-	}
-	{
-    "patchName": "Change version code",
-    "options": [ {
-        "key": "versionCode",
-        "values": "2147483647"
-        }
+	}, {
+    "patchName" : "Change version code",
+    "options" : [ {
+        "key" : "versionCode",
+        "values" : "2147483647"
+        } ]
 ]
