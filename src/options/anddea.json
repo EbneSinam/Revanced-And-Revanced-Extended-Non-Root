@@ -15,4 +15,10 @@
 		"value" : "YouTube Music"
 	  } ]
 	}
+	{
+    "patchName": "Change version code",
+    "options": [ {
+        "key": "versionCode",
+        "values": "2147483647"
+        }
 ]
