@@ -12,7 +12,7 @@ revanced_dl(){
 	get_patches_key "Spotjfy-revanced"
 	j="i"
  	version="9.0.50.416"
-	get_apkpure "com.spot"$j"fy.music" "spotjfy-beta-arm64-v8a" "spot"$j"fy-music-and-podcasts-for-android/com.spot"$j"fy.music"
+	get_apkpure "com.spot"$j"fy.music" "spotjfy-beta-arm64-v8a" "spot"$j"fy-music-and-podcasts-for-android/com.spot"$j"fy.music" "Bundle_extract"
 	patch "spotjfy-beta-arm64-v8a" "revanced"
 }
 case "$1" in
