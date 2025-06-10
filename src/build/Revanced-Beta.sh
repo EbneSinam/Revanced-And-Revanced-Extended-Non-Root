@@ -11,7 +11,7 @@ revanced_dl(){
 	# Patch Spotjfy Arm64-v8a
 	get_patches_key "Spotjfy-revanced"
 	j="i"
- 	version="9.0.48.380"
+ 	version="9.0.50.416"
 	get_apkpure "com.spot"$j"fy.music" "spotjfy-beta-arm64-v8a" "spot"$j"fy-music-and-podcasts-for-android/com.spot"$j"fy.music"
 	patch "spotjfy-beta-arm64-v8a" "revanced"
 }
