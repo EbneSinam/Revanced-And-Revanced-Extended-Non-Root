@@ -3,7 +3,7 @@
     "patchName": "Custom branding name for YouTube",
     "options": [
       {
-        "key": "AppName",
+        "key": "appName",
         "value": "YouTube"
       }
     ]
@@ -12,11 +12,11 @@
     "patchName": "Custom branding name for YouTube Music",
     "options": [
       {
-        "key": "AppNameNotification",
+        "key": "appNameNotification",
         "value": "YouTube Music"
       },
       {
-        "key": "AppNameLauncher",
+        "key": "appNameLauncher",
         "value": "YouTube Music"
       }
     ]
