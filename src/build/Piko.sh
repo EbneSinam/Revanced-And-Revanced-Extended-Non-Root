@@ -1,5 +1,5 @@
 #!/bin/bash
-# Twitter Piko
+# Twitter Piko prerelease
 source src/build/utils.sh
 
 # Patch Twitter Piko Arm64-v8a:
@@ -10,7 +10,7 @@ patch_piko () {
 	if [[ "$1" == "latest" ]]; then
 		v="latest" apk_name="stable"
 	else
-		v="prerelease" apk_name="beta"
+		v="v1.54.1-dev.2" apk_name="beta"
 	fi
 	dl_gh "piko revanced-integrations" "crimera" "$v"
  	version="11.3.5-release.0" #https://t.me/pikopatches/16/29916
