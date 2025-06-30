@@ -8,7 +8,7 @@ dl_gh "revanced-cli" "inotia00" "latest"
 # Patch Spotjfy Arm64-v8a
 get_patches_key "Spotjfy-anddea"
 j="i"
-version="9.0.54.518"
+version="9.0.56.591"
 get_apkpure "com.spot"$j"fy.music" "spotjfy-beta-arm64-v8a" "spot"$j"fy-music-and-podcasts-for-android/com.spot"$j"fy.music" #"Bundle"
 #split_editor "spotjfy-beta" "spotjfy-beta-arm64-v8a" "exclude" "split_config.armeabi_v7a split_config.x86 split_config.x86_64"
 patch "spotjfy-beta-arm64-v8a" "anddea"
@@ -22,6 +22,7 @@ patch "youtube-beta-arm64-v8a" "anddea" "inotia"
 
 # Patch YouTube Music Arm64-v8a
 get_patches_key "youtube-music-rve-anddea"
+version="8.24.54"
 get_apk "com.google.android.apps.youtube.music" "youtube-music-beta-arm64-v8a" "youtube-music" "google-inc/youtube-music/youtube-music" "arm64-v8a"
 patch "youtube-music-beta-arm64-v8a" "anddea" "inotia"
 
