@@ -147,20 +147,25 @@ req() {
     _req "$1" "$2"
 }
 dl_apk() {
-	local url=$1 regexp=$2 output=$3
-	if [[ -z "$4" ]] || [[ $4 == "Bundle" ]] || [[ $4 == "Bundle_extract" ]]; then
-		url="https://www.apkmirror.com$(req "$url" - | tr '\n' ' ' | sed -n "s/.*<a[^>]*href=\"\([^\"]*\)\".*${regexp}.*/\1/p")"
-	else
-		url="https://www.apkmirror.com$(req "$url" - | tr '\n' ' ' | sed -n "s/href=\"/@/g; s;.*${regexp}.*;\1;p")"
-	fi
-	url="https://www.apkmirror.com$(req "$url" - | grep -oP 'class="[^"]*downloadButton[^"]*".*?href="\K[^"]+')"
-   	url="https://www.apkmirror.com$(req "$url" - | grep -oP 'id="download-link".*?href="\K[^"]+')"
-	#url="https://www.apkmirror.com$(req "$url" - | $pup -p --charset utf-8 'a.downloadButton attr{href}')"
-   	#url="https://www.apkmirror.com$(req "$url" - | $pup -p --charset utf-8 'a#download-link attr{href}')"
-	if [[ "$url" == "https://www.apkmirror.com" ]]; then
-		exit 0
-	fi
-	req "$url" "$output"
+    local url=$1 regexp=$2 output=$3
+    if [[ -z "$4" ]] || [[ $4 == "Bundle" ]] || [[ $4 == "Bundle_extract" ]]; then
+        url="https://www.apkmirror.com$(req "$url" - | tr '\n' ' ' | sed -n "s/.*<a[^>]*href=\"[^\"]*\".*${regexp}.*/\1/p")"
+    else
+        url="https://www.apkmirror.com$(req "$url" - | tr '\n' ' ' | sed -n "s/href=\"/@/g; s;.*${regexp}.*;\1;p")"
+    fi
+    
+    temp_url=$(req "$url" - | grep -oP 'class="[^"]*downloadButton[^"]*".*?href="\K[^"]+')
+    [[ "$temp_url" =~ ^http ]] || temp_url="https://www.apkmirror.com$temp_url"
+    url="$temp_url"
+
+    temp_url=$(req "$url" - | grep -oP 'id="download-link".*?href="\K[^"]+')
+    [[ "$temp_url" =~ ^http ]] || temp_url="https://www.apkmirror.com$temp_url"
+    url="$temp_url"
+
+    if [[ "$url" == "https://www.apkmirror.com" ]]; then
+        exit 0
+    fi
+    req "$url" "$output"
 }
 get_apk() {
 	if [[ -z $5 ]]; then
