@@ -12,8 +12,8 @@ revanced_dl(){
 	get_patches_key "Spotjfy-revanced"
 	j="i"
  	version="9.0.62.5"
-	get_apk "com.spot"$j"fy.music" "spotjfy-beta-arm64-v8a" "spot"$j"fy-music-podcasts" "spot"$j"fy-ab/spot"$j"fy-music-podcasts/spot"$j"fy-music-and-podcasts" "arm64-v8a" "Bundle_extract"
-	split_editor "spotjfy-beta" "spotjfy-beta-arm64-v8a" "exclude" "split_config.armeabi_v7a split_config.x86 split_config.x86_64"
+	get_apkpure "com.spot"$j"fy.music" "spotjfy-beta-arm64-v8a" "spot"$j"fy-music-and-podcasts-for-android/com.spot"$j"fy.music" #"Bundle_extract"
+	#split_editor "spotjfy-beta" "spotjfy-beta-arm64-v8a" "exclude" "split_config.armeabi_v7a split_config.x86 split_config.x86_64"
         patch "spotjfy-beta-arm64-v8a" "revanced"
 }
 case "$1" in
