@@ -1,0 +1,20 @@
+[
+  {
+    "patchName": "Change version code",
+    "options": [
+      {
+        "key": "versionCode",
+        "value": "2147483647"
+      }
+    ]
+  },
+  {
+    "patchName": "Change lyrics provider",
+    "options": [
+      {
+        "key": "lyricsProviderHost",
+        "value": "lyrics.natanchiodi.fr"
+      }
+    ]
+  }
+]
