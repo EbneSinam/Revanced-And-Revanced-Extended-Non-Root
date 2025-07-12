@@ -16,10 +16,10 @@ on:
         options:
           - 'Revanced'
           - 'Revanced Beta'
-          - 'Revanced Extended'
-          - 'Revanced Extended Beta'
           - 'RVE-anddea-stable'
           - 'RVE-anddea-beta'
+          - 'Revanced Extended'
+          - 'Revanced Extended Beta'
           - 'Twitter Piko Stable'
           - 'Twitter Piko Beta'
           - 'Revanced Extended Android 6,7'
