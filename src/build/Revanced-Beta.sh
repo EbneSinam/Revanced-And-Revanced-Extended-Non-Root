@@ -1,22 +1,5 @@
 #!/bin/bash
 # Revanced build
-
-# مسیر صحیح به فایل توابع
-source "$(dirname "$0")/utils.sh"
-
-# تابع برای دانلود ابزارهای مورد نیاز
-revanced_dl(){
-	dl_gh "revanced-patches" "revanced" "prerelease"
- 	dl_gh "revanced-cli" "revanced" "latest"
-}
-
-patch_spotify() {
-    revanced_dl
-
-    # متغیر "j" برای بقیه موارد استفاده می‌شود
-    local j="i"
-    
-	# Patch Spotify Arm64-v8a
     # این خط برای مطابقت با نام پوشه شما تغییر کرده است
     get_patches_key "Spotjfy-revanced"
 	
