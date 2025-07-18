@@ -7,7 +7,7 @@ dl_gh "revanced-cli" "inotia00" "latest"
 
 # Patch Youtube Arm64-v8a
 get_patches_key "youtube-rve-anddea"
-version="20.16.40"
+version="20.21.37"
 get_apk "com.google.android.youtube" "youtube-beta" "youtube" "google-inc/youtube/youtube" "Bundle_extract"
 split_editor "youtube-beta" "youtube-beta-arm64-v8a" "exclude" "split_config.armeabi_v7a split_config.x86 split_config.x86_64"
 patch "youtube-beta-arm64-v8a" "anddea" "inotia"
@@ -22,7 +22,7 @@ patch "youtube-music-beta-arm64-v8a" "anddea" "inotia"
 # Patch Spotjfy Arm64-v8a
 get_patches_key "Spotjfy-anddea"
 j="i"
-version="9.0.62.603"
+version="9.0.64.107"
 get_apkpure "com.spot"$j"fy.music" "spotjfy-beta-arm64-v8a" "spot"$j"fy-music-and-podcasts-for-android/com.spot"$j"fy.music"
 patch "spotjfy-beta-arm64-v8a" "anddea"
 
