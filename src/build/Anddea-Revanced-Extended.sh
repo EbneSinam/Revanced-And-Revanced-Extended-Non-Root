@@ -19,7 +19,7 @@ patch "youtube-music-stable-arm64-v8a" "anddea" "inotia"
 # Patch Spotjfy Arm64-v8a
 get_patches_key "Spotjfy-anddea"
 j="i"
-version="9.0.62.603"
+version="9.0.64.107"
 get_apkpure "com.spot"$j"fy.music" "spotjfy-arm64-v8a" "spot"$j"fy-music-and-podcasts-for-android/com.spot"$j"fy.music"
 patch "spotjfy-arm64-v8a" "anddea"
 
