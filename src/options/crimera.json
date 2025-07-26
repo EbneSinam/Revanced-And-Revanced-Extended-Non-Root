@@ -1,10 +1,10 @@
 [
-{
-"name":"Enable app downgrading",
-"description":"Sets app version to a default value making installation of different versions possible",
-"compatiblePackages":null,
-"use":true,
-"requiresIntegrations":false,
-"options":[2147483647]
- }
- ]
+  {
+    "name": "Enable app downgrading",
+    "description": "Sets app version to a default value making installation of different versions possible",
+    "compatiblePackages": null,
+    "use": true,
+    "requiresIntegrations": false,
+    "options": []
+  }
+]
