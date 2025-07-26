@@ -23,7 +23,6 @@ revanced_dl(){
  
 	# Patch SoundCloud Arm64-v8a:
 	get_patches_key "soundcloud"
-        version="2025.07.14-release"
 	get_apk "com.soundcloud.android" "soundcloud" "soundcloud-soundcloud" "soundcloud/soundcloud-soundcloud/soundcloud-play-music-songs" "Bundle_extract"
 	split_editor "soundcloud" "soundcloud-arm64-v8a" "exclude" "split_config.armeabi_v7a split_config.x86 split_config.x86_64"
 	patch "soundcloud-arm64-v8a" "revanced"
