@@ -14,12 +14,10 @@ They are open-source scripts for patching various apps like YouTube, YouTube Mus
 ---
 
 ## ⚙️ How does this repository work?<img src="../main/docs/image/Readme.png" align="right" />
-Simply, all you need to do is choose the app you want to use from the options below: 'Revanced' or 'Revanced Extended'. Then, select your phone's CPU architecture. If you don't know what your phone's CPU architecture is, choose All Architectures. That's all there is to it.
+Simply, all you need to do is choose the app you want to use from the options below: 'Revanced' or 'Revanced Extended'.
 
 > [!NOTE]
 > If you want to use the YouTube, YouTube Music or Google Photos app, you need to download and install [MicroG](https://github.com/ReVanced/GmsCore/releases).
-> 
-> If you are an advanced user and you want to use custom patches for patching apps, you should read the [Wiki](../main/docs/Frequently%20Asked%20Questions.md#q-how-do-i-use-this-repository-for-patching-my-own-app).
 > 
 > This repository is not like any other repository. It does not create new releases; it only releases new files.
 > 
@@ -99,7 +97,27 @@ Download
 
 ---
 
-### ⚠️ Library, resources using in this repository:
+[![Twitch](https://img.shields.io/badge/Twitch-%239146FF.svg?style=for-the-badge&logo=Twitch&logoColor=white)](https://play.google.com/store/apps/details?id=tv.twitch.android.app)
+
+### [Revanced:](https://github.com/revanced/revanced-patches)
+
+| Stable version                                                         | Beta version                                                                |
+| ---------------------------------------------------------------------- | --------------------------------------------------------------------------- | 
+| [Arm64-v8a](../../releases/download/all/twitch-Arm64-v8a-revanced.apk)   | [Arm64-v8a](../../releases/download/all/twitch-Arm64-v8a-beta-revanced.apk)   |
+
+---
+
+[![SoundCloud](https://img.shields.io/badge/soundcloud-FF5500?style=for-the-badge&logo=soundcloud&logoColor=white)](https://play.google.com/store/apps/details?id=com.soundcloud.android)
+
+### [Revanced:](https://github.com/revanced/revanced-patches)
+
+| Stable version                                                             | Beta version                                                                    |
+| -------------------------------------------------------------------------- | ------------------------------------------------------------------------------- | 
+| [Arm64-v8a](../../releases/download/all/soundcloud-arm64-v8a-revanced.apk) | [Arm64-v8a](../../releases/download/all/soundcloud-arm64-v8a-beta-revanced.apk) |
+
+---
+<details>
+  <summary>### ⚠️ Library, resources using in this repository:</summary>
 
 <details>
   <summary>Revanced</summary>
@@ -131,8 +149,6 @@ Download
 [Patches](https://github.com/anddea/revanced-patches) - [GPL-3.0](https://github.com/anddea/revanced-patches/blob/main/LICENSE)
 
 [Integrations](https://github.com/anddea/revanced-integrations) - [GPL-3.0](https://github.com/anddea/revanced-integrations/blob/main/LICENSE)
-
-</details>
 
 </details>
 
@@ -190,12 +206,15 @@ Download
 
 [APKEditor](https://github.com/REAndroid/APKEditor) - [Apache-2.0](https://github.com/REAndroid/APKEditor/blob/master/LICENSE)
 
+</details>
 ---
-
-### ⚠️ Inspired by:
+<details>
+  <summary>### ⚠️ Inspired by:</summary>
 
 [@luxysiv](https://github.com/luxysiv/yt-revanced-nonroot) - [GPL-3.0](https://github.com/luxysiv/revanced-nonroot/blob/main/LICENSE)
 
 [revanced-build-template](https://github.com/n0k0m3/revanced-build-template) - [GPL-3.0](https://github.com/n0k0m3/revanced-build-template/blob/main/LICENSE)
 
 [revanced-magisk-module](https://github.com/j-hc/revanced-magisk-module) - [GPL-3.0](https://github.com/j-hc/revanced-magisk-module/blob/main/LICENSE)
+
+</details>
