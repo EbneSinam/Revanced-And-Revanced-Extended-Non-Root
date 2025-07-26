@@ -20,6 +20,13 @@ revanced_dl(){
 	get_apk "tv.twitch.android.app" "twitch-arm64-v8a" "twitch" "twitch-interactive-inc/twitch/twitch-live-streaming" "Bundle_extract"
 	split_editor "twitch" "twitch-arm64-v8a" "exclude" "split_config.armeabi_v7a split_config.x86 split_config.x86_64"
 	patch "twitch-arm64-v8a" "revanced"
+ 
+	# Patch SoundCloud Arm64-v8a:
+	get_patches_key "soundcloud"
+        version="2025.07.14"
+	get_apk "com.soundcloud.android" "soundcloud" "soundcloud-soundcloud" "soundcloud/soundcloud-soundcloud/soundcloud-play-music-songs" "Bundle_extract"
+	split_editor "soundcloud" "soundcloud-arm64-v8a" "exclude" "split_config.armeabi_v7a split_config.x86 split_config.x86_64"
+	patch "soundcloud-arm64-v8a" "revanced"
 }
 case "$1" in
     1)
