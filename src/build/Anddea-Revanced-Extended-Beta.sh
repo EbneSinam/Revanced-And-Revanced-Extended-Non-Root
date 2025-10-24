@@ -7,12 +7,14 @@ dl_gh "revanced-cli" "inotia00" "latest"
 
 # Patch Youtube Arm64-v8a
 get_patches_key "youtube-rve-anddea"
+version="20.21.37"
 get_apk "com.google.android.youtube" "youtube-beta" "youtube" "google-inc/youtube/youtube" "Bundle_extract"
 split_editor "youtube-beta" "youtube-beta-arm64-v8a" "exclude" "split_config.armeabi_v7a split_config.x86 split_config.x86_64"
 patch "youtube-beta-arm64-v8a" "anddea" "inotia"
 
 # Patch YouTube Music Arm64-v8a:
 get_patches_key "youtube-music-rve-anddea"
+version="8.24.54"
 get_apk "com.google.android.apps.youtube.music" "youtube-music-beta-arm64-v8a" "youtube-music" "google-inc/youtube-music/youtube-music" "arm64-v8a"
 patch "youtube-music-beta-arm64-v8a" "anddea" "inotia"
 
