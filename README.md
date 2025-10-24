@@ -60,21 +60,6 @@ Download
 
 ---
 
-### [Spotjfy:](https://www.google.com/search?q=Spotjfy)
-
-### [Revanced Extended forked by anddea:](https://github.com/anddea/revanced-patches)
-| Stable version                                                            | Beta version                                                                   |
-| ------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | 
-| [Arm64-v8a](../../releases/download/all/spotjfy-arm64-v8a-anddea.apk)     | [Arm64-v8a](../../releases/download/all/spotjfy-beta-arm64-v8a-anddea.apk)     |
-
-### [Revanced](https://github.com/revanced/revanced-patches)
-
-| Stable version                                                            | Beta version                                                                   |
-| ------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | 
-| [Arm64-v8a](../../releases/download/all/spotjfy-arm64-v8a-revanced.apk)   | [Arm64-v8a](../../releases/download/all/spotjfy-beta-arm64-v8a-revanced.apk)   |
-
----
-
 [![Reddit](https://img.shields.io/badge/Reddit-%23FF4500.svg?style=for-the-badge&logo=Reddit&logoColor=white)](https://play.google.com/store/apps/details?id=com.reddit.frontpage)
 
 ### [Revanced Extended forked by anddea:](https://github.com/anddea/revanced-patches)
@@ -116,6 +101,25 @@ Download
 | [Arm64-v8a](../../releases/download/all/soundcloud-arm64-v8a-revanced.apk) | [Arm64-v8a](../../releases/download/all/soundcloud-arm64-v8a-beta-revanced.apk) |
 
 ---
+
+<details>
+  <summary>Spotjfy(Dead):</summary>
+
+### [Revanced Extended forked by anddea:](https://github.com/anddea/revanced-patches)
+| Stable version                                                            | Beta version                                                                   |
+| ------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | 
+| [Arm64-v8a](../../releases/download/all/spotjfy-arm64-v8a-anddea.apk)     | [Arm64-v8a](../../releases/download/all/spotjfy-beta-arm64-v8a-anddea.apk)     |
+
+### [Revanced](https://github.com/revanced/revanced-patches)
+
+| Stable version                                                            | Beta version                                                                   |
+| ------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | 
+| [Arm64-v8a](../../releases/download/all/spotjfy-arm64-v8a-revanced.apk)   | [Arm64-v8a](../../releases/download/all/spotjfy-beta-arm64-v8a-revanced.apk)   |
+
+</details>
+
+---
+
 <details>
   <summary>### ⚠️ Library, resources using in this repository:</summary>
 
