@@ -3,7 +3,7 @@
 source src/build/utils.sh
 
 dl_gh "revanced-cli" "revanced" "v4.6.0"
-dl_gh "piko revanced-integrations" "crimera" "latest"
+dl_gh "piko revanced-integrations" "crimera" "prerelease"
 
 # Patch Twitter Piko Arm64-v8a:
 get_apk "com.twitter.android" "twitter-stable" "twitter" "x-corp/twitter/x" "Bundle_extract"
