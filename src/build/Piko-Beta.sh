@@ -3,7 +3,7 @@
 source src/build/utils.sh
 
 dl_gh "revanced-cli" "revanced" "latest"
-dl_gh "piko" "crimera" "prerelease"
+dl_gh "piko revanced-integrations" "crimera" "prerelease"
 
 # Patch Twitter Piko Arm64-v8a:
 get_patches_key "twitter-piko"
