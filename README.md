@@ -60,16 +60,6 @@ Download
 
 ---
 
-[![Reddit](https://img.shields.io/badge/Reddit-%23FF4500.svg?style=for-the-badge&logo=Reddit&logoColor=white)](https://play.google.com/store/apps/details?id=com.reddit.frontpage)
-
-### [Revanced Extended forked by anddea:](https://github.com/anddea/revanced-patches)
-
-| Stable version                                                                  | Beta version                                                                         |
-| ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ | 
-| [Arm64-v8a](../../releases/download/all/reddit-arm64-v8a-anddea.apk) | [Arm64-v8a](../../releases/download/all/reddit-arm64-v8a-beta-anddea.apk) |
-
----
-
 [![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white)](https://play.google.com/store/apps/details?id=com.twitter.android)
 
 ### [Piko:](https://github.com/crimera/piko)
@@ -99,6 +89,19 @@ Download
 | Stable version                                                             | Beta version                                                                    |
 | -------------------------------------------------------------------------- | ------------------------------------------------------------------------------- | 
 | [Arm64-v8a](../../releases/download/all/soundcloud-arm64-v8a-revanced.apk) | [Arm64-v8a](../../releases/download/all/soundcloud-arm64-v8a-beta-revanced.apk) |
+
+---
+
+<details>
+  <summary>Reddit(Paused):</summary>
+
+### [Revanced Extended forked by anddea:](https://github.com/anddea/revanced-patches)
+
+| Stable version                                                                  | Beta version                                                                         |
+| ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ | 
+| [Arm64-v8a](../../releases/download/all/reddit-arm64-v8a-anddea.apk) | [Arm64-v8a](../../releases/download/all/reddit-arm64-v8a-beta-anddea.apk) |
+
+</details>
 
 ---
 
