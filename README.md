@@ -104,7 +104,7 @@ Download
 
 ### [Spotjfy:](https://www.google.com/search?q=Spotjfy)
 
-### [ReVancedXposed](https://github.com/chsbuffer/ReVancedXposed)
+### [ReVancedXposed](https://github.com/chsbuffer/ReVancedXposed_Spotify)
 
 | Stable version                                                               |
 | ---------------------------------------------------------------------------- |
