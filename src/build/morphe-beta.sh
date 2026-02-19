@@ -9,7 +9,6 @@ morphe_dl(){
 1() {
 	morphe_dl
 	# Patch YouTube:
-	get_patches_key "youtube-morphe"
 	prefer_version="21.08.261"
 	get_apk "com.google.android.youtube" "youtube-beta" "youtube" "google-inc/youtube/youtube"
 	# Remove unused architectures
