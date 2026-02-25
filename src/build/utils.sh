@@ -100,8 +100,8 @@ dl_gh() {
 get_patches_key() {
 	excludePatches=""
 	includePatches=""
-	excludeLinesFound=false
-	includeLinesFound=false
+	excludeLinesFound=true
+	includeLinesFound=true
  	sed -i 's/\r$//' src/patches/$1/include-patches
 	sed -i 's/\r$//' src/patches/$1/exclude-patches
 	if [[ $(ls revanced-cli-*.jar) =~ revanced-cli-([0-9]+) ]]; then
